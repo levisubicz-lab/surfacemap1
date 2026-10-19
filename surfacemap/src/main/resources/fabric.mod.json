@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "surfacemap",
+  "version": "${version}",
+  "name": "Surface Map",
+  "description": "Fullscreen, surface-only world map. No minimap, no radar, no teleporting. Disabled in the Nether.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.surfacemap.SurfaceMapClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "*"
+  }
+}
